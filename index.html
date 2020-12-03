@@ -6,25 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speaks</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"> -->
+    <script src="app.js" type="text/javascript"></script>
+
 </head>
 
 <body>
-    <h2 class="top-head">Banana Talks</h2>
-    
-    <!-- <h1>Talk Banana</h1> -->
+    <div class="head-element">
+        <h1 class="top-head">Banana Talks</h1>
+    </div>
 
+
+    <div class="box">
     <textarea id="txt-area" placeholder="Put your text in english and we will convert it in banana language." name=""
         id="txt-input" cols="30" rows="5"></textarea>
+    </div>
 
-    <button id="btn-translate">Translate</button>
+    <br>
+    <div class="trans-late">
+        <button id="btn-translate">Translate to Banana</button>
+    </div>
 
-    <div style="font-size: large;">output will come here 👇</div>
-    <div id="output"></div>
-    <script src="app.js" type="text/javascript"></script>
+
+    <div id="output-txt" style="font-size: x-large;">Translation will come here 👇</div>
+
+
+    <div class="container">
+    <div class="output-box" id="output"></div>
+    </div>
+
+
 
     <footer id="footer">
-        <p>This web application is made for fun. This application translates your language to minions language.</p>
-        <p>Made with &#10084;&#65039; my me!</p>
+
+        <p id="about">About</p>
+
+        <p>Are you a fan of minions? Did you know the gibberish they speak is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</p>
+        
+        <p>Made with &#10084;&#65039; by a Minion.</p>
+
     </footer>
 </body>
 
