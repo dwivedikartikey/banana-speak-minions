@@ -1,51 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
 :root {
-    --primary-color: #FCD34D;
+    --primary-color: #FFFF66;
 }
 
-
-
-#txt-area {
-    width: 80%;
-    height: 10vh;
-    display: block;
-    margin: 1rem;
-    padding: 1rem;
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
 }
 
-#output {
-    border: 1px solid black;
-    height: 10vh;
-    width: 80%;
-    margin: 1rem;
-    padding: 1rem;
-}
+/* Header Part */
 
-#footer {
+.head-element {
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    border: none;
     text-align: center;
-    color: black;
+    padding: 2rem 2rem;
+    font-size: 16px;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-image: url();
 }
 
 #top-head {
     padding: 2rem 0rem;
     background-color: var(--primary-color);
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
 
+
+/* Input Field Box */
+
+div.box {
+    display: flex;
+    justify-content: center;
+}
+
+#txt-area {
+    width: 50%;
+    height: 20vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid black;
+    align-items: center;
+
+}
+
+/* Translate Button */
+
+.trans-late {
+    text-align: center;
 
 }
 
 #btn-translate {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+    padding: 1rem 1rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     width: fit-content;
+    font-weight: bold;
 }
+
+/* Output will come here text */
+
+#output-txt {
+    padding: 2rem;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+/* Output text box */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+div.output-box {
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    height: 20vh;
+    width: 50%;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    display: block;
+}
+
+/* Footer Part */
+
+#footer {
+    background-color: var(--primary-color);
+    padding: 1rem 5rem;
+    text-align: center;
+    color: black;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-image: url();
+}
+
+#about {
+    color: solid black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+
+
