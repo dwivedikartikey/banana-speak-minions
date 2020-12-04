@@ -39,7 +39,7 @@ div.box {
     justify-content: center;
 }
 
-#txt-area {
+.txt-area {
     width: 50%;
     height: 20vh;
     display: block;
