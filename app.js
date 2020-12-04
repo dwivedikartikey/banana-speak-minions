@@ -10,10 +10,10 @@ function getTranslationURL(input) {
     return serverURL + "?" + "text=" + input
 }
 
-function errorHandler(error) {
-    console.log("error occured", error);
-    alert("Something wrong with server! Try again after some time.")
-}
+// function errorHandler(error) {
+//     console.log("error occured", error);
+//     alert("Something wrong with server! Try again after some time.")
+// }
 
 function clickHandler() {
     //taking input
@@ -31,3 +31,8 @@ function clickHandler() {
 };
 
 btnTranslate.addEventListener("click", clickHandler)
+
+function errorHandler(error) {
+    console.log("error occured", error);
+    alert("Something wrong with server! Try again after some time.")
+}
